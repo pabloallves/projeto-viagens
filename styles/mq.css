@@ -1,0 +1,98 @@
+
+
+@media screen and (min-width: 450px){
+    .topo{
+        justify-content: space-around;
+    }
+    .img{
+        background-color: antiquewhite;
+        height: 400px;
+        background: url(../imagens/london.jpg) no-repeat center center;
+        background-size: cover; 
+        align-items: center;
+    }
+    .menu{
+        justify-content: space-around;
+    }
+    .menu a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu, .from-to{
+        width: 75%;
+    }
+    .container{
+        display:flex;   
+        gap: 10px;
+    }
+    .form{
+        width: 50%;
+    }
+    .container-natures{
+        margin: auto;
+        width: 95%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .places{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'left left top-left top-right'
+        'left left bottom-left bottom-right';
+    }
+    .place{
+        width: 95%;
+        height: 145px;
+    }
+    .place:hover{
+        height: 160px;
+        width: 100%;
+    }
+    #cinque-terre{
+        grid-area: left;
+        height: 300px;
+        width: 97%;
+    }
+    #cinque-terre:hover{
+        height: 315px;
+        width: 100%;
+    }
+    #new-york{
+        grid-area: top-left;
+    }
+    #san-francisco{
+        grid-area: top-right;
+    }
+    #pisa{
+        grid-area: bottom-left;
+        }
+    #paris{
+        grid-area: bottom-right;
+    }
+    .email{
+        width: 95%;
+    }
+    .contact{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 768px){
+
+    .topo{
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    section{
+        max-width: 1000px;
+        margin: auto;
+    }
+    .menu, .from-to{
+        max-width: 800px;
+    }
+    
+}   
