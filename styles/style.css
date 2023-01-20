@@ -195,7 +195,7 @@ section{
     background-image: url(../imagens/mountains.jpg);
 }
 .title-nature{
-   padding: 20px;
+   padding: 10px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
